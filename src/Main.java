@@ -14,7 +14,6 @@ public class Main {
         String password = scan.nextLine();
 
         SecurePassword object = new SecurePassword(password);
-
         System.out.println(object.status());
 
         while (!object.isSecure()) {
